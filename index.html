@@ -1,18 +1,47 @@
 <html>
     <head>
         <title>To Do List</title>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <h1>THE Planner</h1>
         <h2>Todo List </h2>
         <ol>
-            <li><a href="show.html">Wake up (4 pomodoros)</a> <input type="checkbox"></li>
-            <li>Get ready for the day (3 pomodoros)<input type="checkbox"></li>
-            <li>Check on summer work(2 pomodoros)<input type="checkbox"></li>
-            <li>Eat food(1 pomodoro)<input type="checkbox"></li>
-            <li>Work Out (2 pomodoros)<input type="checkbox"></li>
-            <li>Hang with friends(1 pomodoro)<input type="checkbox"></li>
-            <li>Sleep (0 pomodoros)<input type="checkbox"></li>
+            <li>
+                <input type="checkbox">
+                <a href="show.html">Wake up </a>
+                <span class="pomodoro-estimate">4 pomodoros</span>
+            </li>
+            <li>
+                <input type="checkbox">
+                Get ready for the day 
+                <span class="pomodoro-estimate">3 pomodoros</span>
+            </li>
+            <li>
+                <input type="checkbox">
+                Check on summer work 
+                <span class="pomodoro-estimate">2 pomodoros</span>
+            </li>
+            <li>
+                <input type="checkbox">
+                Eat food
+                <span class="pomodoro-estimate">1 pomodoro</span>
+            </li>
+            <li>
+                <input type="checkbox">
+                Work Out 
+                <span class="pomodoro-estimate">2 pomodoros</span>
+            </li>
+            <li>
+                <input type="checkbox">
+                Hang with friends
+                <span class="pomodoro-estimate">1 pomodoro</span>
+            </li>
+            <li>
+                <input type="checkbox">
+                Sleep 
+                <span class="pomodoro-estimate">0 pomodoros</span>
+            </li>
         </ol>
         <form>
           New To Do:<br>
@@ -20,7 +49,7 @@
           Pomodoro:<br>
           <input type="number" name="pomodoro">
           <br>
-          <input type="submit" value="Submit">
+          <input id="add-new-todo-button"type="submit" value="Add To Do">
         </form>
     </body>
 </html>
