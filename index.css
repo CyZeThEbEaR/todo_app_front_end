@@ -28,5 +28,8 @@ ol{
     box-shadow: 2px 2px 1px #90A4AE;
 }
 li:hover{
-    background-color: blue;
+    background-color: grey;
+}
+li{
+    width: 23%;
 }
