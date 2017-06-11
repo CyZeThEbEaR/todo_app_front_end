@@ -1,8 +1,16 @@
+body{
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/21/6e/f8/216ef8d3f6a176e6d0d60bd6588af99f.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
 h1{
     color: red;
 }
 ol{
     list-style-type: none;
+    padding: 0;
 }
 .pomodoro-estimate{
     font-weight: bold;
@@ -10,6 +18,7 @@ ol{
     font-size: 14px;
     padding: 5px 10px 5px 10px;
     border-radius: 50px;
+    border: 2px solid red;
 }
 #add-new-todo-button{
     font-size: 20px;
@@ -28,8 +37,25 @@ ol{
     box-shadow: 2px 2px 1px #90A4AE;
 }
 li:hover{
-    background-color: grey;
+    background-color: #72a8ff;
 }
+
 li{
-    width: 23%;
+    /*width: 23%;*/
+    padding: 10px;
+    margin: 2px 5px 2px 8px;
+}
+.index-block{
+    position: absolute;
+    left: 450px;
+}
+input{
+    display: inline;
+}
+.new{
+    display: block;
+    padding: 5px 6px 2px 4px;
+}
+.completed-todo{
+    text-decoration: line-through;
 }
