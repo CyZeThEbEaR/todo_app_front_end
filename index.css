@@ -59,3 +59,7 @@ input{
 .completed-todo{
     text-decoration: line-through;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
